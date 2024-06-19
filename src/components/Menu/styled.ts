@@ -17,7 +17,7 @@ export const LabelCheck = styled.label<OpenProps>`
         padding: 0.5rem;
 
         width: 4rem;
-        height: 4rem;
+        height: 4.5rem;
 
         text-align: center;
         font-size: 3rem;

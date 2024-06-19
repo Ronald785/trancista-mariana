@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 export const Gallery = () => {
     return (
-        <SecondarySection>
+        <SecondarySection id="gallery">
             <MainContent>
                 <TitleSection>Galeria</TitleSection>
                 <StyledSwiper
