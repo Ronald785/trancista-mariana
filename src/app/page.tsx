@@ -6,6 +6,7 @@ import { About } from "@/components/About";
 import { Braids } from "@/components/Braids";
 import { Gallery } from "@/components/Gallery";
 import { Contact } from "@/components/Contact";
+import { WHatsApp } from "@/components/WhatsApp";
 
 export default function Page() {
     return (
@@ -16,6 +17,7 @@ export default function Page() {
             <Braids />
             <Gallery />
             <Contact />
+            <WHatsApp />
         </>
     );
 }
