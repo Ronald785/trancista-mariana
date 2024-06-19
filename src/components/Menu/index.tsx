@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Check, Container, Flex, LabelCheck, List, MainContent, Nav } from "./styled";
+import { Check, Container, Flex, LabelCheck, List, Logo, MainContent, Nav } from "./styled";
 import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { PiListBold } from "react-icons/pi";
@@ -32,7 +32,10 @@ export const Menu = () => {
             <Container open={isOpen}>
                 <MainContent>
                     <Flex>
-                        <h1>Transcista Mari Ferro </h1>
+                        <Logo
+                            src="/images/logo.svg"
+                            alt="Logo Mariana Ferro"
+                        />
                         <Nav>
                             <List>
                                 <li onClick={closeMenu}>
@@ -46,6 +49,9 @@ export const Menu = () => {
                                 </li>
                                 <li onClick={closeMenu}>
                                     <Link href="#gallery">Galeria</Link>
+                                </li>
+                                <li onClick={closeMenu}>
+                                    <Link href="#care">Cuidados</Link>
                                 </li>
                                 <li onClick={closeMenu}>
                                     <Link href="#contacts">Contato</Link>

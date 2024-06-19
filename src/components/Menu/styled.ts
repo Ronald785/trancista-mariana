@@ -67,6 +67,15 @@ export const Flex = styled.div`
     }
 `;
 
+export const Logo = styled.img`
+    width: 15rem;
+
+    @media (max-width: 992px) {
+        width: 30rem;
+        padding: 2rem 0;
+    }
+`;
+
 export const Nav = styled.nav``;
 
 export const List = styled.ul`

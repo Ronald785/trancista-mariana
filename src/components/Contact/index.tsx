@@ -3,7 +3,7 @@ import { CardContact, Grid, IconContainer, InfoContact, Maps, SocialLink, TitleC
 import { FaInstagram, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 export const Contact = () => {
     return (
-        <PrimarySection id="contacts">
+        <SecondarySection id="contacts">
             <MainContent>
                 <Grid>
                     <CardContact>
@@ -54,6 +54,6 @@ export const Contact = () => {
                     ></Maps>
                 </Grid>
             </MainContent>
-        </PrimarySection>
+        </SecondarySection>
     );
 };
