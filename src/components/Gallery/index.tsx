@@ -76,10 +76,10 @@ export const Gallery = () => {
                     <StyledSwiperSlide>
                         <Image
                             src="/images/gallery/6.png"
-                            alt="French Curl Braids"
+                            alt="Box braids"
                             loading="lazy"
                         />
-                        <p>French Curl Braids</p>
+                        <p>Box braids</p>
                     </StyledSwiperSlide>
                     <StyledSwiperSlide>
                         <Image
