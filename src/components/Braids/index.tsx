@@ -10,11 +10,7 @@ import {
     IconContainer,
     IlustrativePicture,
 } from "./styled";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHourglassEnd } from "@fortawesome/free-solid-svg-icons";
-import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { FaHourglassEnd, FaRegClock } from "react-icons/fa";
-import { RxLapTimer } from "react-icons/rx";
 
 export const Braids = () => {
     return (

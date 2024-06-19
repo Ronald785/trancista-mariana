@@ -1,8 +1,5 @@
 import { MainContent, PrimarySection, SecondarySection } from "@/styles/styles";
 import { CardContact, Grid, IconContainer, InfoContact, Maps, SocialLink, TitleContact } from "./styled";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FaInstagram, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 export const Contact = () => {
     return (
