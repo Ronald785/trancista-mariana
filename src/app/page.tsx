@@ -3,6 +3,7 @@
 import { Menu } from "@/components/Menu";
 import { Home } from "@/components/Home";
 import { About } from "@/components/About";
+import { Braids } from "@/components/Braids";
 
 export default function Page() {
     return (
@@ -10,6 +11,7 @@ export default function Page() {
             <Menu />
             <Home />
             <About />
+            <Braids />
         </>
     );
 }
