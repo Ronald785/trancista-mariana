@@ -1,7 +1,13 @@
 "use client";
 
-import { Title } from "@/components/Title";
+import { Menu } from "@/components/Menu";
+import { Home } from "@/components/Home";
 
-export default function Home() {
-    return <Title title="Hello World" />;
+export default function Page() {
+    return (
+        <>
+            <Menu />
+            <Home />
+        </>
+    );
 }
