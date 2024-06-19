@@ -1,8 +1,6 @@
 import { MainContent, PrimarySection } from "@/styles/styles";
 import { Actions, Grid, Intro, ProfilePicture, ProfilePictureWrapper } from "./styled";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
 export const Home = () => {
     return (
@@ -20,7 +18,7 @@ export const Home = () => {
                                     href="https://wa.me/5519992109540"
                                     target="_blank"
                                 >
-                                    <FontAwesomeIcon icon={faWhatsapp} />
+                                    <FaWhatsapp />
                                     Agende seu horário
                                 </a>
                             </button>
@@ -29,7 +27,7 @@ export const Home = () => {
                                     href="https://maps.app.goo.gl/oY71fLGr2QDfqhkn8"
                                     target="_blank"
                                 >
-                                    <FontAwesomeIcon icon={faLocationDot} />
+                                    <FaMapMarkerAlt />
                                     Como chegar
                                 </a>
                             </button>

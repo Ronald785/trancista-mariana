@@ -28,19 +28,6 @@ export const InfoContact = styled.div`
     display: flex;
     align-items: center;
     padding: 1rem 0;
-    svg {
-        width: 2.5rem;
-        height: 2.5rem;
-        margin-right: 1rem;
-        background-color: rgba(179, 134, 113, 255);
-        padding: 1.5rem;
-        border-radius: 0.5rem;
-
-        &:hover {
-            cursor: pointer;
-            box-shadow: 3px solid black;
-        }
-    }
 `;
 
 export const SocialLink = styled.a`
@@ -49,6 +36,19 @@ export const SocialLink = styled.a`
     text-decoration: none;
 
     display: flex;
+    align-items: center;
+`;
+
+export const IconContainer = styled.div`
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+    background-color: rgba(179, 134, 113, 255);
+    border-radius: 0.5rem;
+    font-size: 3rem;
+
+    display: flex;
+    justify-content: center;
     align-items: center;
 `;
 

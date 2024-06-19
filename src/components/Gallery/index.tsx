@@ -30,7 +30,7 @@ export const Gallery = () => {
                     pagination={{
                         clickable: true,
                     }}
-                    spaceBetween={20}
+                    spaceBetween={40}
                     modules={[Pagination]}
                 >
                     <StyledSwiperSlide>

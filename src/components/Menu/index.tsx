@@ -1,14 +1,8 @@
 import Link from "next/link";
-import {
-    Check,
-    Container,
-    Flex,
-    LabelCheck,
-    List,
-    MainContent,
-    Nav,
-} from "./styled";
+import { Check, Container, Flex, LabelCheck, List, MainContent, Nav } from "./styled";
 import { useState } from "react";
+import { IoMdClose } from "react-icons/io";
+import { PiListBold } from "react-icons/pi";
 
 export const Menu = () => {
     const [isOpen, setMenuOpen] = useState(false);
@@ -29,7 +23,12 @@ export const Menu = () => {
                 checked={isOpen}
                 onChange={toggleMenu}
             />
-            <LabelCheck htmlFor="closeMenu" open={isOpen}></LabelCheck>
+            <LabelCheck
+                htmlFor="closeMenu"
+                open={isOpen}
+            >
+                {isOpen ? <IoMdClose /> : <PiListBold />}
+            </LabelCheck>
             <Container open={isOpen}>
                 <MainContent>
                     <Flex>

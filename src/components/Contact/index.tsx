@@ -1,15 +1,9 @@
 import { MainContent, PrimarySection, SecondarySection } from "@/styles/styles";
-import {
-    CardContact,
-    Grid,
-    InfoContact,
-    Maps,
-    SocialLink,
-    TitleContact,
-} from "./styled";
+import { CardContact, Grid, IconContainer, InfoContact, Maps, SocialLink, TitleContact } from "./styled";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { FaInstagram, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 export const Contact = () => {
     return (
         <PrimarySection id="contacts">
@@ -23,20 +17,24 @@ export const Contact = () => {
                                 href="https://maps.app.goo.gl/oY71fLGr2QDfqhkn8"
                                 target="_blank"
                             >
-                                <FontAwesomeIcon icon={faLocationDot} />
+                                <IconContainer>
+                                    <FaMapMarkerAlt />
+                                </IconContainer>
                                 <p>
-                                    Av Baden Powell, 1093 - Jardim Nova Europa{" "}
-                                    <br />
+                                    Av Baden Powell, 1093 - Jardim Nova Europa <br />
                                     Campinas - SP
                                 </p>
                             </SocialLink>
                         </InfoContact>
                         <InfoContact>
                             <SocialLink
-                                href="tel:+5519992109540"
+                                href="https://wa.me/5519992109540"
                                 target="_blank"
                             >
-                                <FontAwesomeIcon icon={faPhone} />
+                                <IconContainer>
+                                    <FaWhatsapp />
+                                </IconContainer>
+
                                 <p>(19) 99210-9540</p>
                             </SocialLink>
                         </InfoContact>
@@ -45,7 +43,9 @@ export const Contact = () => {
                                 href="https://www.instagram.com/trancista.mariferro/"
                                 target="_blank"
                             >
-                                <FontAwesomeIcon icon={faInstagram} />
+                                <IconContainer>
+                                    <FaInstagram />
+                                </IconContainer>
                                 <p>@trancista.mariferro</p>
                             </SocialLink>
                         </InfoContact>

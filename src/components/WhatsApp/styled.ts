@@ -6,9 +6,9 @@ export const Container = styled.div`
     bottom: 2rem;
     right: 2rem;
 
-    height: 50px;
-    width: 50px;
-    font-size: 30px;
+    height: 5rem;
+    width: 5rem;
+    font-size: 3rem;
     color: white;
     background-color: #40c351;
     border-radius: 50%;

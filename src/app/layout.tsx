@@ -4,9 +4,6 @@ import StyledComponentsRegistry from "@/lib/registry";
 import { GlobalStyles } from "@/styles/global-styles";
 import { theme } from "@/styles/theme";
 import { ThemeProvider } from "styled-components";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false;
 
 const poppins = Poppins({
     weight: ["400", "500", "600", "700", "900"],

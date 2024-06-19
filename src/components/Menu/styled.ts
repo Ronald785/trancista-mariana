@@ -9,7 +9,10 @@ export const Check = styled.input`
 `;
 
 export const LabelCheck = styled.label<OpenProps>`
+    display: none;
     @media (max-width: 992px) {
+        display: initial;
+
         position: fixed;
 
         top: 2rem;
@@ -17,7 +20,8 @@ export const LabelCheck = styled.label<OpenProps>`
         padding: 0.5rem;
 
         width: 4rem;
-        height: 4.5rem;
+        height: 4rem;
+        border-radius: 0.5rem;
 
         text-align: center;
         font-size: 3rem;
@@ -25,10 +29,6 @@ export const LabelCheck = styled.label<OpenProps>`
         background-color: ${({ open }) => (open ? "black" : "black")};
         z-index: 1000;
         cursor: pointer;
-
-        &::after {
-            content: ${({ open }) => (open ? '"X"' : '"☰"')};
-        }
     }
 `;
 
