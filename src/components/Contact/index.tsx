@@ -17,10 +17,7 @@ export const Contact = () => {
                                 <IconContainer>
                                     <FaMapMarkerAlt />
                                 </IconContainer>
-                                <p>
-                                    Av Baden Powell, 1093 - Jardim Nova Europa <br />
-                                    Campinas - SP
-                                </p>
+                                <p>Av Baden Powell, 1093 - Jardim Nova Europa - Campinas - SP</p>
                             </SocialLink>
                         </InfoContact>
                         <InfoContact>
@@ -31,7 +28,6 @@ export const Contact = () => {
                                 <IconContainer>
                                     <FaWhatsapp />
                                 </IconContainer>
-
                                 <p>(19) 99210-9540</p>
                             </SocialLink>
                         </InfoContact>

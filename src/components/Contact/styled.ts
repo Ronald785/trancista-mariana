@@ -31,17 +31,24 @@ export const InfoContact = styled.div`
 `;
 
 export const SocialLink = styled.a`
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: inherit;
     text-decoration: none;
 
     display: flex;
     align-items: center;
+    @media (max-width: 1024px) {
+        p {
+            max-width: 100%;
+        }
+    }
 `;
 
 export const IconContainer = styled.div`
     width: 5rem;
+    min-width: 5rem;
     height: 5rem;
+    min-height: 5rem;
     margin-right: 1rem;
     background-color: black;
     border-radius: 0.5rem;
