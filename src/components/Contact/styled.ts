@@ -50,7 +50,7 @@ export const IconContainer = styled.div`
     height: 5rem;
     min-height: 5rem;
     margin-right: 1rem;
-    background-color: black;
+    background-color: rgba(79, 69, 68, 255);
     border-radius: 0.5rem;
     font-size: 3rem;
 

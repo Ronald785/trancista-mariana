@@ -29,34 +29,10 @@ export const Care = () => {
                         </CareDescription>
                     </CareCard>
                     <CareCard>
-                        <CareTitle>Evitar Pesos Excessivos</CareTitle>
-                        <CareDescription>
-                            Evite acessórios pesados nas tranças para prevenir tensão no couro cabeludo e quebra do
-                            cabelo.
-                        </CareDescription>
-                    </CareCard>
-                    <CareCard>
                         <CareTitle>Proteção Noturna</CareTitle>
                         <CareDescription>
                             Durma com uma touca de cetim ou use uma fronha de seda para reduzir o atrito e evitar o
                             frizz.
-                        </CareDescription>
-                    </CareCard>
-                    <CareCard>
-                        <CareTitle>Manutenção</CareTitle>
-                        <CareDescription>
-                            Ajuste as tranças afrouxando e repare as pontas com frizz perto do couro cabeludo.
-                        </CareDescription>
-                    </CareCard>
-                    <CareCard>
-                        <CareTitle>Limite o Tempo de Uso</CareTitle>
-                        <CareDescription>Não deixe as tranças por mais de 2 meses.</CareDescription>
-                    </CareCard>
-                    <CareCard>
-                        <CareTitle>Conclusão</CareTitle>
-                        <CareDescription>
-                            Seguir essas dicas ajudará a manter suas tranças box braids bonitas e saudáveis por mais
-                            tempo.
                         </CareDescription>
                     </CareCard>
                 </Grid>
