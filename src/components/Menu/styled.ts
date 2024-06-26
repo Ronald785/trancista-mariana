@@ -93,6 +93,11 @@ export const List = styled.ul`
         a {
             text-decoration: none;
             color: inherit;
+
+            &.active {
+                padding-bottom: 2px;
+                border-bottom: 3px solid rgba(121, 77, 48, 255);
+            }
         }
         a:hover {
             color: rgba(121, 77, 48, 255);
