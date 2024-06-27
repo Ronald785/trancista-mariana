@@ -10,10 +10,11 @@ export const About = () => {
                         <TitleSection>Sobre</TitleSection>
 
                         <p>
-                            Desde 2020, sou uma trancista especializada em tranças nagô e box braids. Em cada trabalho,
-                            busco alcançar excelência técnica e garantir sua total satisfação. Como cristã, considero
-                            meu dom uma bênção de Deus e busco honrá-lo em cada trança, dedicando amor e cuidado a cada
-                            uma.
+                            Prazer, sou Mariana Ferro! Trabalho com trança desde 2020 e tenho mais de 5 cursos
+                            profissionalizantes na área. Em cada trabalho, busco alcançar a excelência técnica e a
+                            satisfação dos meus clientes, pois cada cabelo e cada pessoa é única. Como cristã, considero
+                            meu dom uma benção de Deus e busco honrá-lo em cada trança, dedicando amor e cuidado a cada
+                            uma. Vamos conversar, será um prazer lhe atender!
                         </p>
                     </Intro>
                 </Grid>
