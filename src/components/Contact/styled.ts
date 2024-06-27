@@ -42,6 +42,13 @@ export const SocialLink = styled.a`
             max-width: 100%;
         }
     }
+
+    &:hover {
+        div {
+            background-color: #ffffff;
+            color: rgba(79, 69, 68, 255);
+        }
+    }
 `;
 
 export const IconContainer = styled.div`
