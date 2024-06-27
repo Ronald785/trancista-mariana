@@ -30,11 +30,6 @@ export const Menu = () => {
                 let sectionTop = rect.top + windowScrollY;
                 let sectionBottom = sectionTop + section.offsetHeight;
 
-                // Se for a seção 'about', considera 100 pixels a mais
-                if (section.id === "about") {
-                    sectionBottom += 200;
-                }
-
                 // Calcula os limites visíveis da seção
                 const visibleTop = Math.max(sectionTop, windowScrollY);
                 const visibleBottom = Math.min(sectionBottom, windowScrollY + windowHeight);
