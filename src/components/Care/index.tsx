@@ -1,5 +1,5 @@
 import { MainContent, TitleSection, PrimarySection } from "@/styles/styles";
-import { CareCard, CareDescription, CareTitle, Grid } from "./styled";
+import { CareCard, CareDescription, CareHeader, CareSvg, CareTitle, Grid } from "./styled";
 
 export const Care = () => {
     return (
@@ -8,28 +8,52 @@ export const Care = () => {
                 <TitleSection>Cuidados</TitleSection>
                 <Grid>
                     <CareCard>
-                        <CareTitle>Lavar o Cabelo</CareTitle>
+                        <CareHeader>
+                            <CareSvg
+                                src="/images/care/wash.svg"
+                                alt="Wash hair"
+                            />
+                            <CareTitle>Lavar o Cabelo</CareTitle>
+                        </CareHeader>
                         <CareDescription>
-                            Use um shampoo diluído para evitar acúmulo de resíduos, concentrando-se no couro cabeludo e
-                            massageando suavemente.
+                            Use shampoo diluído para evitar o acúmulo de resíduos e massageie suavemente o couro
+                            cabeludo.
                         </CareDescription>
                     </CareCard>
                     <CareCard>
-                        <CareTitle>Usar mousse</CareTitle>
+                        <CareHeader>
+                            <CareSvg
+                                src="/images/care/mousse.svg"
+                                alt="Use mousse"
+                            />
+                            <CareTitle>Usar mousse</CareTitle>
+                        </CareHeader>
                         <CareDescription>
-                            Para aumentar a durabilidade deverá passar o mousse fixador após a lavagem com o cabelo
-                            úmido/seco.
+                            Para aumentar a durabilidade, deverá passar o mousse fixador após a lavagem, com o cabelo
+                            úmido ou seco.
                         </CareDescription>
                     </CareCard>
                     <CareCard>
-                        <CareTitle>Secagem Adequada</CareTitle>
+                        <CareHeader>
+                            <CareSvg
+                                src="/images/care/dry.svg"
+                                alt="Dry hair"
+                            />
+                            <CareTitle>Secagem Adequada</CareTitle>
+                        </CareHeader>
                         <CareDescription>
-                            Após lavar as tranças, seque-as bem usando uma toalha e deixe secar ao ar livre ou com um
+                            Após lavar as tranças, seque-as bem usando uma toalha e deixe-as secar ao ar livre ou com um
                             secador frio.
                         </CareDescription>
                     </CareCard>
                     <CareCard>
-                        <CareTitle>Proteção Noturna</CareTitle>
+                        <CareHeader>
+                            <CareSvg
+                                src="/images/care/sleep.svg"
+                                alt="Sleeping cap"
+                            />
+                            <CareTitle>Proteção Noturna</CareTitle>
+                        </CareHeader>
                         <CareDescription>
                             Durma com uma touca de cetim ou use uma fronha de seda para reduzir o atrito e evitar o
                             frizz.

@@ -10,23 +10,41 @@ export const Grid = styled.div`
 
 export const CareCard = styled.div`
     background-color: rgba(179, 134, 113, 255);
-    height: 16rem;
+    height: 22rem;
     border-radius: 1rem;
 
     @media (max-width: 594px) {
-        height: 13rem;
+        height: 20rem;
+        padding: 0 3.5rem;
     }
 
     @media (max-width: 468px) {
-        height: 16rem;
+        height: 22rem;
+        padding: 0 2rem;
+    }
+
+    @media (max-width: 368px) {
+        height: 24rem;
+        padding: 0 1rem;
     }
 `;
 
+export const CareHeader = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem;
+`;
+
+export const CareSvg = styled.img`
+    max-width: 100%;
+    width: 6.4rem;
+`;
+
 export const CareTitle = styled.h3`
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     font-weight: 800;
-    padding: 1.5rem 2rem;
     color: white;
 `;
 
