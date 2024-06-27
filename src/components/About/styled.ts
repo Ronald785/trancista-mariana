@@ -14,5 +14,6 @@ export const Intro = styled.div`
         font-size: 2rem;
         padding: 2rem;
         font-weight: 500;
+        text-align: justify;
     }
 `;
