@@ -12,6 +12,8 @@ export const Care = () => {
                             <CareSvg
                                 src="/images/care/wash.svg"
                                 alt="Wash hair"
+                                width={64}
+                                height={64}
                             />
                             <CareTitle>Lavar o Cabelo</CareTitle>
                         </CareHeader>
@@ -25,6 +27,8 @@ export const Care = () => {
                             <CareSvg
                                 src="/images/care/mousse.svg"
                                 alt="Use mousse"
+                                width={64}
+                                height={64}
                             />
                             <CareTitle>Usar Mousse</CareTitle>
                         </CareHeader>
@@ -38,6 +42,8 @@ export const Care = () => {
                             <CareSvg
                                 src="/images/care/dry.svg"
                                 alt="Dry hair"
+                                width={64}
+                                height={64}
                             />
                             <CareTitle>Secagem Adequada</CareTitle>
                         </CareHeader>
@@ -51,6 +57,8 @@ export const Care = () => {
                             <CareSvg
                                 src="/images/care/sleep.svg"
                                 alt="Sleeping cap"
+                                width={64}
+                                height={64}
                             />
                             <CareTitle>Proteção Noturna</CareTitle>
                         </CareHeader>

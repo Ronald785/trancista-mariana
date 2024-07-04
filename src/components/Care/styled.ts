@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 
 export const Grid = styled.div`
@@ -36,7 +37,7 @@ export const CareHeader = styled.div`
     padding: 1.5rem 2rem;
 `;
 
-export const CareSvg = styled.img`
+export const CareSvg = styled(Image)`
     max-width: 100%;
     width: 6.4rem;
 `;
