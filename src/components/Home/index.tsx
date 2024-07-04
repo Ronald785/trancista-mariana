@@ -40,6 +40,9 @@ export const Home = () => {
                         <ProfilePicture
                             src="/images/mariana.png"
                             alt="Mariana Soares Ferro"
+                            width={555}
+                            height={555}
+                            quality={100}
                         />
                     </ProfilePictureWrapper>
                 </Grid>

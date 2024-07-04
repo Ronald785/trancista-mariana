@@ -40,6 +40,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô com bubble</p>
                     </StyledSwiperSlide>
@@ -50,6 +51,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô</p>
                     </StyledSwiperSlide>
@@ -60,6 +62,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Goddess Braids</p>
                     </StyledSwiperSlide>
@@ -70,6 +73,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô</p>
                     </StyledSwiperSlide>
@@ -80,6 +84,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>French Curl Braids</p>
                     </StyledSwiperSlide>
@@ -90,6 +95,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô</p>
                     </StyledSwiperSlide>
@@ -100,6 +106,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Box Braids (gg)</p>
                     </StyledSwiperSlide>
@@ -110,6 +117,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô</p>
                     </StyledSwiperSlide>
@@ -120,6 +128,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Box Braids (g)</p>
                     </StyledSwiperSlide>
@@ -130,6 +139,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô</p>
                     </StyledSwiperSlide>
@@ -140,6 +150,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Boxeadora</p>
                     </StyledSwiperSlide>
@@ -151,6 +162,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô</p>
                     </StyledSwiperSlide>
@@ -161,6 +173,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Box Braids</p>
                     </StyledSwiperSlide>
@@ -171,6 +184,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô</p>
                     </StyledSwiperSlide>
@@ -181,6 +195,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô</p>
                     </StyledSwiperSlide>
@@ -191,6 +206,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô</p>
                     </StyledSwiperSlide>
@@ -201,6 +217,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô</p>
                     </StyledSwiperSlide>
@@ -211,6 +228,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô</p>
                     </StyledSwiperSlide>
@@ -221,6 +239,7 @@ export const Gallery = () => {
                             width={270}
                             height={380}
                             loading="lazy"
+                            quality={100}
                         />
                         <p>Nagô finalização Bubble</p>
                     </StyledSwiperSlide>

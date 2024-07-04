@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 
 export const Grid = styled.div`
@@ -5,8 +6,6 @@ export const Grid = styled.div`
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 3rem;
-
-    padding-top: 2rem;
 
     @media (min-width: 992px) {
         padding-top: 6rem;
@@ -27,7 +26,7 @@ export const Intro = styled.div`
     }
 
     p {
-        font-size: 2.2rem;
+        font-size: 2.3rem;
         font-weight: 500;
         text-transform: uppercase;
         padding: 2rem 0;
@@ -39,7 +38,7 @@ export const Intro = styled.div`
         }
 
         p {
-            font-size: 1.8rem;
+            font-size: 2rem;
         }
     }
 
@@ -49,7 +48,7 @@ export const Intro = styled.div`
         }
 
         p {
-            font-size: 1.6rem;
+            font-size: 2rem;
         }
     }
 `;
@@ -124,8 +123,9 @@ export const ProfilePictureWrapper = styled.div`
     justify-content: center;
 `;
 
-export const ProfilePicture = styled.img`
+export const ProfilePicture = styled(Image)`
     width: 100%;
+    height: 100%;
     max-height: 100%;
     border-radius: 50%;
     box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3);
