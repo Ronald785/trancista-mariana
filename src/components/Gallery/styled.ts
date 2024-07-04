@@ -1,7 +1,8 @@
+import Image from "next/image";
 import styled from "styled-components";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-export const Image = styled.img`
+export const ImageNext = styled(Image)`
     width: 100%;
 `;
 

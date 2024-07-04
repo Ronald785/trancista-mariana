@@ -18,7 +18,7 @@ export const Grid = styled.div`
 `;
 
 export const Intro = styled.div`
-    h2 {
+    h1 {
         font-size: 4.5rem;
         font-weight: 700;
         text-transform: uppercase;
@@ -26,12 +26,7 @@ export const Intro = styled.div`
         padding: 2rem 0;
     }
 
-    span {
-        display: block;
-    }
-
-    h3,
-    span {
+    p {
         font-size: 2.2rem;
         font-weight: 500;
         text-transform: uppercase;
@@ -39,23 +34,21 @@ export const Intro = styled.div`
     }
 
     @media (max-width: 1024px) {
-        h2 {
+        h1 {
             font-size: 3.5rem;
         }
 
-        h3,
-        span {
+        p {
             font-size: 1.8rem;
         }
     }
 
     @media (max-width: 768px) {
-        h2 {
+        h1 {
             font-size: 3rem;
         }
 
-        h3,
-        span {
+        p {
             font-size: 1.6rem;
         }
     }
@@ -63,12 +56,17 @@ export const Intro = styled.div`
 
 export const Actions = styled.div`
     display: grid;
+    padding: 2rem 0;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 
+    @media (max-width: 1024px) {
+        grid-template-columns: 1fr;
+    }
+
     button {
         font-size: 1.4rem;
-        font-weight: 600;
+        font-weight: 700;
         text-transform: uppercase;
         padding: 1rem 0;
         border-radius: 2rem;
@@ -79,7 +77,6 @@ export const Actions = styled.div`
             align-items: center;
             justify-content: center;
             text-decoration: none;
-            color: rgb(0 0 0 / 85%);
         }
 
         svg {
@@ -87,29 +84,38 @@ export const Actions = styled.div`
             width: 2.5rem;
             height: 2.5rem;
         }
-
-        &:hover {
-            cursor: pointer;
-            background-color: rgba(179, 134, 113, 255);
-
-            a {
-                color: white;
-            }
-        }
-    }
-
-    @media (max-width: 1024px) {
-        grid-template-columns: 1fr;
     }
 
     @media (max-width: 768px) {
-        button {
-            font-size: 1.2rem;
+        font-size: 1.2rem;
 
-            svg {
-                font-size: 1.5rem;
-            }
+        svg {
+            font-size: 1.5rem;
         }
+    }
+`;
+
+export const ScheduleButton = styled.button`
+    background-color: rgba(179, 134, 113, 255);
+
+    a {
+        color: white;
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+    }
+`;
+
+export const LocationButton = styled.button`
+    a {
+        color: rgba(79, 69, 68, 255);
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
     }
 `;
 

@@ -1,6 +1,6 @@
 import { Pagination, Navigation } from "swiper/modules";
 import { MainContent, TitleSection, SecondarySection } from "@/styles/styles";
-import { Image, StyledSwiper, StyledSwiperSlide } from "./styled";
+import { ImageNext, StyledSwiper, StyledSwiperSlide } from "./styled";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 export const Gallery = () => {
     return (
-        <SecondarySection id="gallery">
+        <SecondarySection id="galeria">
             <MainContent>
                 <TitleSection>Galeria</TitleSection>
                 <StyledSwiper
@@ -34,116 +34,195 @@ export const Gallery = () => {
                     modules={[Pagination]}
                 >
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
                             src="/images/gallery/1.png"
                             alt="Nagô com bubble"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
                         <p>Nagô com bubble</p>
                     </StyledSwiperSlide>
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
                             src="/images/gallery/2.png"
-                            alt="Goddess braids"
+                            alt="Nagô"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
-                        <p>Goddess braids</p>
+                        <p>Nagô</p>
                     </StyledSwiperSlide>
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
                             src="/images/gallery/3.png"
-                            alt="Nagô braids"
+                            alt="Goddess Braids"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
-                        <p>Nagô braids</p>
+                        <p>Goddess Braids</p>
                     </StyledSwiperSlide>
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
                             src="/images/gallery/4.png"
-                            alt="Nagô braids"
+                            alt="Nagô"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
-                        <p>Nagô braids</p>
+                        <p>Nagô</p>
                     </StyledSwiperSlide>
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
                             src="/images/gallery/5.png"
-                            alt="Box braids"
-                            loading="lazy"
-                        />
-                        <p>Box braids (gg)</p>
-                    </StyledSwiperSlide>
-                    <StyledSwiperSlide>
-                        <Image
-                            src="/images/gallery/6.png"
-                            alt="Box braids"
-                            loading="lazy"
-                        />
-                        <p>Box braids</p>
-                    </StyledSwiperSlide>
-                    <StyledSwiperSlide>
-                        <Image
-                            src="/images/gallery/7.png"
                             alt="French Curl Braids"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
                         <p>French Curl Braids</p>
                     </StyledSwiperSlide>
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
+                            src="/images/gallery/6.png"
+                            alt="Nagô"
+                            width={270}
+                            height={380}
+                            loading="lazy"
+                        />
+                        <p>Nagô</p>
+                    </StyledSwiperSlide>
+                    <StyledSwiperSlide>
+                        <ImageNext
+                            src="/images/gallery/7.png"
+                            alt="Box Braids  (gg)"
+                            width={270}
+                            height={380}
+                            loading="lazy"
+                        />
+                        <p>Box Braids (gg)</p>
+                    </StyledSwiperSlide>
+                    <StyledSwiperSlide>
+                        <ImageNext
                             src="/images/gallery/8.png"
-                            alt="Box braids (g)"
+                            alt="Nagô"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
-                        <p>Box braids (g)</p>
+                        <p>Nagô</p>
                     </StyledSwiperSlide>
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
                             src="/images/gallery/9.png"
-                            alt="Boxeadora braids"
+                            alt="Box Braids (g)"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
-                        <p>Boxeadora braids</p>
+                        <p>Box Braids (g)</p>
                     </StyledSwiperSlide>
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
                             src="/images/gallery/10.png"
-                            alt="Nagô braids"
+                            alt="Nagô"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
-                        <p>Nagô braids</p>
+                        <p>Nagô</p>
                     </StyledSwiperSlide>
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
                             src="/images/gallery/11.png"
-                            alt="Nagô braids"
+                            alt="Boxeadora"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
-                        <p>Nagô braids</p>
+                        <p>Boxeadora</p>
                     </StyledSwiperSlide>
+                    {/*Masculina*/}
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
                             src="/images/gallery/12.png"
-                            alt="Nagô finalização bubble"
+                            alt="Nagô"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
-                        <p>Nagô finalização bubble</p>
+                        <p>Nagô</p>
                     </StyledSwiperSlide>
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
+                            src="/images/gallery/13.png"
+                            alt="Box Braids"
+                            width={270}
+                            height={380}
+                            loading="lazy"
+                        />
+                        <p>Box Braids</p>
+                    </StyledSwiperSlide>
+                    <StyledSwiperSlide>
+                        <ImageNext
                             src="/images/gallery/14.png"
-                            alt="Nagô braids"
+                            alt="Nagô"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
-                        <p>Nagô braids</p>
+                        <p>Nagô</p>
                     </StyledSwiperSlide>
                     <StyledSwiperSlide>
-                        <Image
+                        <ImageNext
                             src="/images/gallery/15.png"
-                            alt="Nagô lateral"
+                            alt="Nagô"
+                            width={270}
+                            height={380}
                             loading="lazy"
                         />
-                        <p>Nagô lateral</p>
+                        <p>Nagô</p>
+                    </StyledSwiperSlide>
+                    <StyledSwiperSlide>
+                        <ImageNext
+                            src="/images/gallery/16.png"
+                            alt="Nagô"
+                            width={270}
+                            height={380}
+                            loading="lazy"
+                        />
+                        <p>Nagô</p>
+                    </StyledSwiperSlide>
+                    <StyledSwiperSlide>
+                        <ImageNext
+                            src="/images/gallery/17.png"
+                            alt="Nagô"
+                            width={270}
+                            height={380}
+                            loading="lazy"
+                        />
+                        <p>Nagô</p>
+                    </StyledSwiperSlide>
+                    <StyledSwiperSlide>
+                        <ImageNext
+                            src="/images/gallery/18.png"
+                            alt="Nagô"
+                            width={270}
+                            height={380}
+                            loading="lazy"
+                        />
+                        <p>Nagô</p>
+                    </StyledSwiperSlide>
+                    <StyledSwiperSlide>
+                        <ImageNext
+                            src="/images/gallery/19.png"
+                            alt="Nagô finalização Bubble"
+                            width={270}
+                            height={380}
+                            loading="lazy"
+                        />
+                        <p>Nagô finalização Bubble</p>
                     </StyledSwiperSlide>
                 </StyledSwiper>
             </MainContent>

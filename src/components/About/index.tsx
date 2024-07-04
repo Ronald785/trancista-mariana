@@ -3,7 +3,7 @@ import { Grid, Intro } from "./styled";
 
 export const About = () => {
     return (
-        <SecondarySection id="about">
+        <SecondarySection id="sobre">
             <MainContent>
                 <Grid>
                     <Intro>

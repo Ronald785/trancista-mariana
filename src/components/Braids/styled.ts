@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styled from "styled-components";
 
 interface CardImageProps {
@@ -17,7 +18,7 @@ export const Card = styled.div`
     border-radius: 1rem;
 `;
 
-export const CardImage = styled.img`
+export const CardImage = styled(Image)`
     border-radius: 1rem 1rem 0 0;
     width: 100%;
     height: 30rem;

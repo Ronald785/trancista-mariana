@@ -3,7 +3,7 @@ import { CardContact, Grid, IconContainer, InfoContact, Maps, SocialLink, TitleC
 import { FaInstagram, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 export const Contact = () => {
     return (
-        <SecondarySection id="contacts">
+        <SecondarySection id="contatos">
             <MainContent>
                 <Grid>
                     <CardContact>

@@ -3,9 +3,9 @@ import { CareCard, CareDescription, CareHeader, CareSvg, CareTitle, Grid } from 
 
 export const Care = () => {
     return (
-        <PrimarySection id="care">
+        <PrimarySection id="cuidados">
             <MainContent>
-                <TitleSection>Cuidados</TitleSection>
+                <TitleSection>Cuidados pós tranças</TitleSection>
                 <Grid>
                     <CareCard>
                         <CareHeader>
@@ -26,7 +26,7 @@ export const Care = () => {
                                 src="/images/care/mousse.svg"
                                 alt="Use mousse"
                             />
-                            <CareTitle>Usar mousse</CareTitle>
+                            <CareTitle>Usar Mousse</CareTitle>
                         </CareHeader>
                         <CareDescription>
                             Para aumentar a durabilidade, deverá passar o mousse fixador após a lavagem, com o cabelo

@@ -53,11 +53,11 @@ export default function RootLayout({
                 <title>Trancista Campinas | Mariana</title>
                 <meta
                     name="description"
-                    content="Trancista Campinas Mariana, especialista em tranças nagô e box braids desde 2020. Transformando fios em arte com excelência técnica e dedicação. Descubra os diferentes estilos, como Box Braids, Fulani Braids, Gypsy Braids, Goddess Braids, Nagô Braids, Boxeadora Braids, French Curl Braids e Ghana Braids. Localizada em Campinas, SP. Contate-me para agendar seu próximo visual incrível!"
+                    content="Trancista Mariana em Campinas, SP. Especialista em tranças nagô e box braids. Faço Fulani Braids, Gypsy Braids, Goddess Braids, Boxeadora Braids, French Curl Braids e Ghana Braids."
                 />
                 <meta
                     name="keywords"
-                    content="Trancista, Campinas, Box Braids, Fulani Braids, Gypsy Braids, Goddess Braids, Nagô Braids, Boxeadora Braids, French Curl Braids, Ghana Braids"
+                    content="Trancista, tranças, braids, Campinas, Box Braids, Fulani Braids, Gypsy Braids, Goddess Braids, Nagô Braids, Boxeadora Braids, French Curl Braids, Ghana Braids"
                 />
                 <meta
                     name="author"

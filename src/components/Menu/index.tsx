@@ -101,19 +101,19 @@ export const Menu = () => {
                                     </Link>
                                 </li>
                                 <li onClick={closeMenu}>
-                                    <Link href="#about">Sobre</Link>
+                                    <Link href="#sobre">Sobre</Link>
                                 </li>
                                 <li onClick={closeMenu}>
-                                    <Link href="#braids">Tranças</Link>
+                                    <Link href="#tranças">Tranças</Link>
                                 </li>
                                 <li onClick={closeMenu}>
-                                    <Link href="#gallery">Galeria</Link>
+                                    <Link href="#galeria">Galeria</Link>
                                 </li>
                                 <li onClick={closeMenu}>
-                                    <Link href="#care">Cuidados</Link>
+                                    <Link href="#cuidados">Cuidados</Link>
                                 </li>
                                 <li onClick={closeMenu}>
-                                    <Link href="#contacts">Contato</Link>
+                                    <Link href="#contatos">Contato</Link>
                                 </li>
                             </List>
                         </Nav>
