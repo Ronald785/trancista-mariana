@@ -14,7 +14,7 @@ import { FaHourglassEnd, FaRegClock } from "react-icons/fa";
 
 export const Braids = () => {
     return (
-        <PrimarySection id="tranças">
+        <PrimarySection id="trancas">
             <MainContent>
                 <TitleSection>Tranças</TitleSection>
                 <Grid>

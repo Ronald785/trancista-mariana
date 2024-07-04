@@ -104,7 +104,7 @@ export const Menu = () => {
                                     <Link href="#sobre">Sobre</Link>
                                 </li>
                                 <li onClick={closeMenu}>
-                                    <Link href="#tranças">Tranças</Link>
+                                    <Link href="#trancas">Tranças</Link>
                                 </li>
                                 <li onClick={closeMenu}>
                                     <Link href="#galeria">Galeria</Link>
