@@ -43,14 +43,14 @@ export const CareSvg = styled(Image)`
 `;
 
 export const CareTitle = styled.h3`
-    text-align: left;
+    text-align: center;
     font-size: 2rem;
     font-weight: 800;
     color: white;
 `;
 
 export const CareDescription = styled.p`
-    text-align: justify;
+    text-align: center;
 
     padding: 0 2rem 1.5rem 2rem;
     font-size: 1.6rem;

@@ -35,7 +35,7 @@ export const CardContent = styled.div`
         font-size: 2rem;
         font-weight: 800;
         padding: 1.5rem 2rem;
-        /* text-align: center; */
+        text-align: center;
     }
 `;
 
@@ -45,12 +45,13 @@ export const CardDescription = styled.p`
     font-weight: 500;
     color: rgba(0, 0, 0, 0.8);
     height: 12rem;
-    text-align: justify;
+    text-align: center;
 `;
 
 export const CardTime = styled.div`
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0 2rem 1.5rem 2rem;
 
     span {
