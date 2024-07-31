@@ -58,6 +58,13 @@ export default function Page() {
                         Agende seu horário
                     </a>
                     <a
+                        href="https://maps.app.goo.gl/5kcsvPDeUVW7GK2E6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Localização
+                    </a>
+                    <a
                         href="https://trancistacampinas-mariana.com.br/"
                         target="_blank"
                         rel="noopener noreferrer"
