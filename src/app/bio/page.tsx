@@ -21,7 +21,7 @@ export default function Page() {
                     />
                 </PictureWrapper>
                 <Title>Mariana Soares Ferro</Title>
-                <SubTitle>Transcista Campinas</SubTitle>
+                <SubTitle>Trancista Campinas</SubTitle>
                 <Contacts>
                     <Link
                         href="https://www.instagram.com/mariferro_/"
@@ -32,7 +32,7 @@ export default function Page() {
                         <FaInstagram />
                     </Link>
                     <Link
-                        href="https://wa.me/5519992109540?text=Ol%C3%A1%20Mari.%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20tran%C3%A7as"
+                        href="https://wa.me/5519992109540?text=Ol%C3%A1%20Mari.%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio"
                         title="WhatsApp"
                         target="_blank"
                         rel="noopener noreferrer"
