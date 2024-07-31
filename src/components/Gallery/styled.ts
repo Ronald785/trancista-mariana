@@ -18,6 +18,7 @@ export const StyledSwiperSlide = styled(SwiperSlide)`
     justify-content: center;
     img {
         width: 100%;
+        max-width: 27rem;
         border-radius: 2rem 2rem 0 0;
     }
     p {
@@ -26,6 +27,7 @@ export const StyledSwiperSlide = styled(SwiperSlide)`
         font-size: 2rem;
         background-color: rgba(79, 69, 68, 255);
         width: 100%;
+        max-width: 27rem;
         border-radius: 0 0 2rem 2rem;
         margin-bottom: 3rem;
     }
