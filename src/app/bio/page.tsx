@@ -20,11 +20,11 @@ export default function Page() {
                         quality={100}
                     />
                 </PictureWrapper>
-                <Title>Mariana Soares Ferro</Title>
+                <Title>Mariana Ferro</Title>
                 <SubTitle>Trancista Campinas</SubTitle>
                 <Contacts>
                     <Link
-                        href="https://www.instagram.com/mariferro_/"
+                        href="https://www.instagram.com/trancista.mariferro/"
                         title="Instagram"
                         target="_blank"
                         rel="noopener noreferrer"
