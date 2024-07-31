@@ -2,7 +2,7 @@ import Image from "next/image";
 import styled from "styled-components";
 
 export const PrimarySection = styled.section`
-    background-color: #f7f7f7;
+    background-color: rgb(229 229 229);
     color: white;
     height: 100vh;
 `;
