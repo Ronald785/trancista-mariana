@@ -53,14 +53,16 @@ export default function Page() {
                     <a
                         href="https://wa.me/5519992109540?text=Ol%C3%A1%20Mari.%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         Agende seu horário
                     </a>
                     <a
-                        href="https://wa.me/5519992109540?text=Ol%C3%A1%20Mari.%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio"
+                        href="https://trancistacampinas-mariana.com.br/"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
-                        Contato
+                        Site
                     </a>
                 </Buttons>
             </MainContent>
