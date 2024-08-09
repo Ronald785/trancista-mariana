@@ -32,7 +32,7 @@ export default function Page() {
                         <FaInstagram />
                     </Link>
                     <Link
-                        href="https://wa.me/5519992109540?text=Ol%C3%A1%20Mari.%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio"
+                        href="https://wa.me/5519995606980?text=Ol%C3%A1%20Mari.%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio"
                         title="WhatsApp"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -51,7 +51,7 @@ export default function Page() {
 
                 <Buttons>
                     <a
-                        href="https://wa.me/5519992109540?text=Ol%C3%A1%20Mari.%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio"
+                        href="https://wa.me/5519995606980?text=Ol%C3%A1%20Mari.%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

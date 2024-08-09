@@ -15,7 +15,7 @@ export const Home = () => {
                         <Actions>
                             <ScheduleButton>
                                 <a
-                                    href="https://wa.me/5519992109540?text=Ol%C3%A1%20Mari.%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20tran%C3%A7as"
+                                    href="https://wa.me/5519995606980?text=Ol%C3%A1%20Mari.%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20tran%C3%A7as"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

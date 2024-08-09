@@ -23,14 +23,14 @@ export const Contact = () => {
                         </InfoContact>
                         <InfoContact>
                             <SocialLink
-                                href="https://wa.me/5519992109540"
+                                href="https://wa.me/5519995606980"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 <IconContainer>
                                     <FaWhatsapp />
                                 </IconContainer>
-                                <p>(19) 99210-9540</p>
+                                <p>(19) 99560-6980</p>
                             </SocialLink>
                         </InfoContact>
                         <InfoContact>
