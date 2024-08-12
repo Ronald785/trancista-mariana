@@ -112,6 +112,16 @@ export default function RootLayout({
                     dangerouslySetInnerHTML={addJsonLd()}
                     key="item-jsonld"
                 />
+                <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11480583163">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11480583163');
+</script>
             </head>
             <body>
                 <ThemeProvider theme={theme}>
