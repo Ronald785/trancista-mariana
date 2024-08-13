@@ -12,30 +12,26 @@ const poppins = Poppins({
     display: "swap",
 });
 
-export default function RootLayout({
-    children,
-}: Readonly<{
-    children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
     const addJsonLd = () => {
         return {
             __html: `
-                {
-                    "@context": "https://schema.org",
-                    "@type": "Person",
-                    "name": "Mariana Ferro",
-                    "jobTitle": "Trancista",
-                    "description": "Especialista em tranças nagô e box braids desde 2020.",
-                    "image": "https://trancista-mariana.vercel.app/images/icon.svg",
-                    "url": "https://trancista-mariana.vercel.app/",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Campinas",
-                        "addressRegion": "SP",
-                        "addressCountry": "BR"
-                    }
-                }
-            `,
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Mariana Ferro",
+          "jobTitle": "Trancista",
+          "description": "Especialista em tranças nagô e box braids desde 2020.",
+          "image": "https://trancista-mariana.vercel.app/images/icon.svg",
+          "url": "https://trancista-mariana.vercel.app/",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Campinas",
+            "addressRegion": "SP",
+            "addressCountry": "BR"
+          }
+        }
+      `,
         };
     };
 
@@ -112,16 +108,18 @@ export default function RootLayout({
                     dangerouslySetInnerHTML={addJsonLd()}
                     key="item-jsonld"
                 />
-                <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11480583163">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-11480583163');
-</script>
+                <script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=AW-11480583163"
+                ></script>
+                <script>
+                    {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-11480583163');
+          `}
+                </script>
             </head>
             <body>
                 <ThemeProvider theme={theme}>
