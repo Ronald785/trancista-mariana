@@ -241,16 +241,13 @@ export const Braids = () => {
                         </CardContent>
                     </Card>
                     <Card>
-                        <IlustrativePicture>
-                            <CardImage
-                                src="/images/breads/3.png"
-                                alt="Gypsy Braids"
-                                width={250}
-                                height={300}
-                                loading="lazy"
-                            />
-                            <p>Imagem Ilustrativa</p>
-                        </IlustrativePicture>
+                        <CardImage
+                            src="/images/breads/9.png"
+                            alt="Gypsy Braids"
+                            width={250}
+                            height={300}
+                            loading="lazy"
+                        />
                         <CardContent>
                             <h3>Gypsy Braids</h3>
                             <CardDescription>
